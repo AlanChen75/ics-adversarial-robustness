@@ -1,0 +1,8 @@
+data/
+models/
+__pycache__/
+*.pt
+*.pth
+figures/
+verification_report.md
+.DS_Store

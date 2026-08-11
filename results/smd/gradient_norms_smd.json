@@ -1,0 +1,14 @@
+{
+  "lstm_ae_smd": {
+    "grad_norm": 0.10287660154608425,
+    "n_samples": 2042
+  },
+  "tranad_smd": {
+    "grad_norm": 0.09712915203013447,
+    "n_samples": 2042
+  },
+  "usad_smd": {
+    "grad_norm": 0.1043390921628546,
+    "n_samples": 2042
+  }
+}

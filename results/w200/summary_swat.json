@@ -1,0 +1,13 @@
+{
+  "dataset": "swat",
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "n_baseline": 9,
+  "n_attacks": 18,
+  "n_defended_baselines": 9,
+  "n_defended_attacks": 9,
+  "timestamp": "2026-04-10T11:10:55+00:00"
+}

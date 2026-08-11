@@ -1,0 +1,24 @@
+{
+  "gradient_norms": {
+    "lstm_ae_swat": 0.006144,
+    "tranad_swat": 0.001235,
+    "lstm_ae_wadi": 0.271677,
+    "usad_wadi": 0.273356,
+    "tranad_wadi": 0.269074
+  },
+  "asr": {
+    "lstm_ae_swat": 0.321,
+    "usad_swat": 0.892,
+    "gdn_swat": 0.999,
+    "tranad_swat": 0.263,
+    "dagmm_swat": 0.997,
+    "lstm_ae_wadi": 0.517,
+    "usad_wadi": 0.601,
+    "gdn_wadi": 0.803,
+    "tranad_wadi": 0.532,
+    "dagmm_wadi": 0.963
+  },
+  "pearson_r": 0.969229098846488,
+  "r_squared": 0.9394050460507752,
+  "spearman_rho": 0.8999999999999998
+}

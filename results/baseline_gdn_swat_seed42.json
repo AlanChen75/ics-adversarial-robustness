@@ -1,0 +1,21 @@
+{
+  "detection_rate": 0.025136701216028727,
+  "false_alarm_rate": 0.013744191733920275,
+  "precision": 0.22386974850995783,
+  "recall": 0.025136701216028727,
+  "f1_score": 0.045198403381075364,
+  "tp": 1540,
+  "fp": 5339,
+  "fn": 59725,
+  "tn": 383116,
+  "threshold": 0.006762706208974123,
+  "n_samples": 449720,
+  "n_attacks": 61265,
+  "train_time_sec": 322.71386313438416,
+  "detector": "gdn",
+  "dataset": "swat",
+  "seed": 42,
+  "tag": "",
+  "timestamp": "2026-04-05T17:41:36+00:00",
+  "config_hash": "18cd36744ea3"
+}

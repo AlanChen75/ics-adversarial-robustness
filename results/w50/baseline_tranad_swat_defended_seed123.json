@@ -1,0 +1,21 @@
+{
+  "detection_rate": 0.6807660194347231,
+  "false_alarm_rate": 0.015605507407661486,
+  "precision": 0.8618626723343005,
+  "recall": 0.6807660194347231,
+  "f1_score": 0.760684439327471,
+  "tp": 38321,
+  "fp": 6142,
+  "fn": 17970,
+  "tn": 387437,
+  "threshold": 9.075813068193384e-06,
+  "n_samples": 449870,
+  "n_attacks": 56291,
+  "train_time_sec": 841.6550974845886,
+  "detector": "tranad",
+  "dataset": "swat",
+  "seed": 123,
+  "tag": "defended",
+  "timestamp": "2026-04-09T10:47:41+00:00",
+  "config_hash": "7f2ecbb5853f"
+}

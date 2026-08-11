@@ -1,0 +1,99 @@
+{
+  "n_seeds": 3,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "epsilon": {
+    "mean": 0.10000000000000002,
+    "std": 1.6996749443881478e-17,
+    "min": 0.1,
+    "max": 0.1
+  },
+  "constrained": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  },
+  "detection_rate": {
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "max": 1.0
+  },
+  "false_alarm_rate": {
+    "mean": 0.707091400873035,
+    "std": 0.03323329702513339,
+    "min": 0.6867116574274925,
+    "max": 0.7454406684341608
+  },
+  "precision": {
+    "mean": 0.16547071137388988,
+    "std": 0.0063486433043595325,
+    "min": 0.15814544299777708,
+    "max": 0.16937952480443128
+  },
+  "recall": {
+    "mean": 1.0,
+    "std": 0.0,
+    "min": 1.0,
+    "max": 1.0
+  },
+  "f1_score": {
+    "mean": 0.28392110669486414,
+    "std": 0.009377253087169692,
+    "min": 0.273101179051275,
+    "max": 0.28969127851414805
+  },
+  "attack_success_rate": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  },
+  "physical_plausibility_rate": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  },
+  "attack_time_sec": {
+    "mean": 0.3714267412821452,
+    "std": 0.014357220616273772,
+    "min": 0.3575427532196045,
+    "max": 0.3862144947052002
+  },
+  "tp": {
+    "mean": 3486.0,
+    "std": 0.0,
+    "min": 3486.0,
+    "max": 3486.0
+  },
+  "fp": {
+    "mean": 17602.333333333332,
+    "std": 827.3096961436711,
+    "min": 17095.0,
+    "max": 18557.0
+  },
+  "fn": {
+    "mean": 0.0,
+    "std": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  },
+  "tn": {
+    "mean": 7291.666666666667,
+    "std": 827.3096961436711,
+    "min": 6337.0,
+    "max": 7799.0
+  },
+  "detector": "lstm_ae",
+  "dataset": "smd",
+  "attack": "fgsm",
+  "tag": "unconstrained",
+  "timestamp": "2026-04-09T07:37:31+00:00",
+  "config_hash": "d85f0596b634",
+  "note": "FGSM can overshoot at large epsilon; prefer I-FGSM for controlled perturbation"
+}

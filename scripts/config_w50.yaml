@@ -1,0 +1,87 @@
+# Experiment Configuration
+# ICS Adversarial Robustness Benchmark
+
+seed: 42
+seeds: [42, 123, 456]
+device: cuda
+
+# Data settings
+data:
+  swat_dir: ../data/swat
+  wadi_dir: ../data/wadi
+  smd_dir: ../data/smd/ServerMachineDataset
+  window_size: 50
+  stride: 1
+  val_ratio: 0.2
+  datasets:
+    - swat
+    - wadi
+    - smd
+
+# Detector settings
+detectors:
+  common:
+    hidden_dim: 64
+    epochs: 50
+    batch_size: 256
+    lr: 0.001
+    patience: 5
+  architectures:
+    - lstm_ae
+    - usad
+    - gdn
+    - tranad
+    - dagmm
+
+# Attack settings
+attacks:
+  epsilon_budgets: [0.01, 0.05, 0.1]
+  methods:
+    fgsm:
+      eps_step: null  # single step
+    ifgsm:
+      max_iter: 10
+      eps_step_ratio: 0.1  # step_size = epsilon / max_iter
+    pgd:
+      max_iter: 40
+      eps_step_ratio: 0.1  # step_size = epsilon * ratio
+    cw:
+      max_iter: 200
+      lr: 0.01
+      confidence: 0
+    autoattack:
+      norm: Linf
+
+# Physical constraints
+constraints:
+  enabled: true
+  # max_rate is now computed dynamically: 0.5 * epsilon
+
+# Defense settings
+defenses:
+  adversarial_training:
+    mix_ratio: 0.5
+    pgd_steps: 5
+    epsilon: 0.05
+  randomized_smoothing:
+    sigma: [0.01, 0.025, 0.05]
+    n_samples: 100
+  trades:
+    beta: [1.0, 3.0, 6.0]
+    pgd_steps: 10
+
+# Evaluation
+evaluation:
+  threshold_percentile: 99  # on training anomaly scores
+  metrics:
+    - detection_rate
+    - false_alarm_rate
+    - f1_score
+    - attack_success_rate
+    - physical_plausibility_rate
+
+# Output
+output:
+  results_dir: ../experiments/results
+  models_dir: ../experiments/models
+  figures_dir: ../figures

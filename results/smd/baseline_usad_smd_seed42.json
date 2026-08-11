@@ -1,0 +1,21 @@
+{
+  "detection_rate": 1.0,
+  "false_alarm_rate": 0.4220294046758255,
+  "precision": 0.24914236706689538,
+  "recall": 1.0,
+  "f1_score": 0.398901476141435,
+  "tp": 3486,
+  "fp": 10506,
+  "fn": 0,
+  "tn": 14388,
+  "threshold": 0.007792153861373663,
+  "n_samples": 28380,
+  "n_attacks": 3486,
+  "train_time_sec": 27.9231538772583,
+  "detector": "usad",
+  "dataset": "smd",
+  "seed": 42,
+  "tag": "",
+  "timestamp": "2026-04-09T07:41:18+00:00",
+  "config_hash": "d85f0596b634"
+}

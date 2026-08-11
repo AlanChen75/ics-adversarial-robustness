@@ -1,0 +1,21 @@
+{
+  "detection_rate": 0.6702685056720803,
+  "false_alarm_rate": 0.03882817829607033,
+  "precision": 0.7313658788537233,
+  "recall": 0.6702685056720803,
+  "f1_score": 0.6994855721732021,
+  "tp": 41064,
+  "fp": 15083,
+  "fn": 20201,
+  "tn": 373372,
+  "threshold": 0.016425510868430138,
+  "n_samples": 449720,
+  "n_attacks": 61265,
+  "train_time_sec": 197.93865370750427,
+  "detector": "usad",
+  "dataset": "swat",
+  "seed": 123,
+  "tag": "",
+  "timestamp": "2026-04-10T01:55:39+00:00",
+  "config_hash": "f338349f6568"
+}

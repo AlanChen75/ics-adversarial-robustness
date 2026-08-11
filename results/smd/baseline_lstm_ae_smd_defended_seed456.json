@@ -1,0 +1,21 @@
+{
+  "detection_rate": 1.0,
+  "false_alarm_rate": 0.6277416244878284,
+  "precision": 0.18238894992936744,
+  "recall": 1.0,
+  "f1_score": 0.3085092260719501,
+  "tp": 3486,
+  "fp": 15627,
+  "fn": 0,
+  "tn": 9267,
+  "threshold": 0.0005171989905647933,
+  "n_samples": 28380,
+  "n_attacks": 3486,
+  "train_time_sec": 103.60995125770569,
+  "detector": "lstm_ae",
+  "dataset": "smd",
+  "seed": 456,
+  "tag": "defended",
+  "timestamp": "2026-04-09T08:28:27+00:00",
+  "config_hash": "d85f0596b634"
+}

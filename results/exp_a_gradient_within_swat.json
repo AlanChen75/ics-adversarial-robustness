@@ -1,0 +1,125 @@
+{
+  "lstm_ae": {
+    "detector": "lstm_ae",
+    "dataset": "swat",
+    "grad_norm_all_mean": 0.000499548990040239,
+    "grad_norm_all_std": 1.6128766475078785e-05,
+    "grad_norm_attack_mean": 0.0029749666408367074,
+    "grad_norm_attack_std": 0.00010367355467649466,
+    "known_asr": 0.304,
+    "per_seed": [
+      {
+        "seed": 42,
+        "all_mean": 0.0005142048257830538,
+        "all_std": 0.0022867776619800583,
+        "all_median": 5.192073695070576e-05,
+        "attack_mean": 0.0028446699666501447,
+        "attack_std": 0.010615749854685969,
+        "n_all": 2000,
+        "n_attack": 2000
+      },
+      {
+        "seed": 123,
+        "all_mean": 0.0005073574693960836,
+        "all_std": 0.002072588239777448,
+        "all_median": 5.1923489081673324e-05,
+        "attack_mean": 0.002981896497781236,
+        "attack_std": 0.011258258490561175,
+        "n_all": 2000,
+        "n_attack": 2000
+      },
+      {
+        "seed": 456,
+        "all_mean": 0.0004770846749415796,
+        "all_std": 0.001900094110375993,
+        "all_median": 5.0602062401594594e-05,
+        "attack_mean": 0.0030983334580787416,
+        "attack_std": 0.013100510070168913,
+        "n_all": 2000,
+        "n_attack": 2000
+      }
+    ]
+  },
+  "tranad": {
+    "detector": "tranad",
+    "dataset": "swat",
+    "grad_norm_all_mean": 1.1334582601496855e-05,
+    "grad_norm_all_std": 2.7860246139206243e-08,
+    "grad_norm_attack_mean": 1.75859023894039e-05,
+    "grad_norm_attack_std": 5.696202817074241e-08,
+    "known_asr": 0.255,
+    "per_seed": [
+      {
+        "seed": 42,
+        "all_mean": 1.1338093504946301e-05,
+        "all_std": 6.000316491139146e-06,
+        "all_median": 8.331418030138593e-06,
+        "attack_mean": 1.7608634374255415e-05,
+        "attack_std": 1.5228426866551882e-05,
+        "n_all": 2000,
+        "n_attack": 2000
+      },
+      {
+        "seed": 123,
+        "all_mean": 1.1366813104814356e-05,
+        "all_std": 5.94520209786073e-06,
+        "all_median": 8.341463399119675e-06,
+        "attack_mean": 1.7507607691413795e-05,
+        "attack_std": 1.510768926877421e-05,
+        "n_all": 2000,
+        "n_attack": 2000
+      },
+      {
+        "seed": 456,
+        "all_mean": 1.1298841194729903e-05,
+        "all_std": 5.853795505227205e-06,
+        "all_median": 8.325110684381798e-06,
+        "attack_mean": 1.7641465102542498e-05,
+        "attack_std": 1.5266795186307503e-05,
+        "n_all": 2000,
+        "n_attack": 2000
+      }
+    ]
+  },
+  "usad": {
+    "detector": "usad",
+    "dataset": "swat",
+    "grad_norm_all_mean": 0.0037149856433679814,
+    "grad_norm_all_std": 0.0,
+    "grad_norm_attack_mean": 0.007895192313175358,
+    "grad_norm_attack_std": 0.0,
+    "known_asr": 0.509,
+    "per_seed": [
+      {
+        "seed": 42,
+        "all_mean": 0.0037149856433679814,
+        "all_std": 0.006869899083738059,
+        "all_median": 0.00046504868078045547,
+        "attack_mean": 0.007895192313175358,
+        "attack_std": 0.01273633093112085,
+        "n_all": 2000,
+        "n_attack": 2000
+      },
+      {
+        "seed": 123,
+        "all_mean": 0.0037149856433679814,
+        "all_std": 0.006869899083738059,
+        "all_median": 0.00046504868078045547,
+        "attack_mean": 0.007895192313175358,
+        "attack_std": 0.01273633093112085,
+        "n_all": 2000,
+        "n_attack": 2000
+      },
+      {
+        "seed": 456,
+        "all_mean": 0.0037149856433679814,
+        "all_std": 0.006869899083738059,
+        "all_median": 0.00046504868078045547,
+        "attack_mean": 0.007895192313175358,
+        "attack_std": 0.01273633093112085,
+        "n_all": 2000,
+        "n_attack": 2000
+      }
+    ]
+  }
+}

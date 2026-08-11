@@ -1,0 +1,21 @@
+{
+  "detection_rate": 1.0,
+  "false_alarm_rate": 0.487627540772877,
+  "precision": 0.223104,
+  "recall": 1.0,
+  "f1_score": 0.3648160745120611,
+  "tp": 3486,
+  "fp": 12139,
+  "fn": 0,
+  "tn": 12755,
+  "threshold": 0.00012635329039767385,
+  "n_samples": 28380,
+  "n_attacks": 3486,
+  "train_time_sec": 526.2569851875305,
+  "detector": "tranad",
+  "dataset": "smd",
+  "seed": 456,
+  "tag": "defended",
+  "timestamp": "2026-04-09T08:46:11+00:00",
+  "config_hash": "d85f0596b634"
+}
